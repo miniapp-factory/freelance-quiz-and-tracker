@@ -7,6 +7,7 @@ export default function Home() {
   // NEVER write anything here, only use this page to import components
   return (
     <main className="flex flex-col gap-3 place-items-center place-content-center px-4 grow">
+      <img src="/logo.png" alt="App Logo" className="size-32" />
       <span className="text-2xl">{title}</span>
       <span className="text-muted-foreground">{description}</span>
     </main>
